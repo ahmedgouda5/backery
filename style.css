@@ -1,0 +1,258 @@
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ /* start home page */
+ .parent{
+   background-image:url(./images/drew-coffman-1872.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   text-align: center;
+ }
+ img{
+    width:50% ;
+    padding: 10px 10px;
+ }
+ .logo,.navbar{
+    float: left;
+ }
+ /* .navbar  {
+     margin-left: 400px;
+     margin-top: 20px;
+ } */
+ ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+ }
+
+ .nav{
+   display: flex ;
+   justify-content: space-between ;
+   align-items: center;
+   padding-inline:20px  ;
+ }
+
+ a{
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .clear-fix{
+    clear: both;
+ }
+ .main{
+    margin-top:210px ;
+    color: white;
+ }
+ .main h4{
+    font-size: 22px;
+    margin: 0 0 5px;
+ }
+ .main h1{
+    font-size: 76px;
+    margin: 0 0 18px;
+ }
+ .main p{
+    font-size: 24px;
+    color: #ffff;
+    margin: 10px 0 20px;
+ }
+ .btn{
+    margin: 30px 0 0;
+    
+ }
+ .btn button{
+    border: 3px solid white;
+    border-radius: 3px;
+    padding: 20px;
+    color: white;
+    background-color: #00008000;
+    font-size: 16px;
+ }
+  .btn .btn-2{
+    border-color:#8E7754;
+    background-color: #8E7754;
+ }
+ /* End Home page */
+ /* start page 2 */
+ .page2{
+    margin: 20px 0 ; 
+    padding:0 50px;
+    
+ }
+ .imags{
+    width: 50%;
+    background-color: #8E7754;
+ }
+ .page2 img{
+    max-width: 100%;
+    float: left;
+ }
+
+ .text{
+    float: left;
+    width: 40%;
+    margin: 100px 10px 0 50px ;
+ }
+ .text h3{
+    margin: 0 0 25px;
+    font-size: 33px;
+    color: #303030;
+ }
+ .text p{
+    margin: 0 0 25px;
+    font-size: 17px;
+    color: #686868;
+ }
+ .text .line img{
+    max-width: 100%;
+    width: 50px;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #686868;
+    border-radius:50%;
+ }
+ .text .line h5{ 
+    padding: 19px 0;
+    font-size: 17px;
+    color: #686868;
+ }
+ .clear-fix{
+    clear: both;
+ }
+ /* End page 2 */
+ /* strat page 3 */
+ .page3{
+    margin: 70px 0 ; 
+    padding:0 50px;
+    background-color: #f8f8f8;
+ }
+ /* End page 3 */
+ /* start page 4 */
+.page4 {
+    margin: 70px 0 ; 
+    padding:0 50px;
+}
+.page4 .container{
+    width: 100%;
+}
+.page4 .title{
+    text-align: center;
+}
+.page4 .title h3{
+  margin: 20px 0;
+  font-size: 30px;
+}
+.page4 .title p{
+margin: 20px 10px;
+color: #686868;
+font-size: 17px;
+}
+.container .card{
+   text-align: center;
+   display: inline-block;
+   width: calc(98%/3);
+}
+.card img{
+  max-width: 100%;
+  width: 500px;
+}
+.card p{
+    color:#686868;
+    margin: 20px 0;
+}
+/* End page 4 */
+/* Start page 5 */
+.page5{
+    background-color: #f8f8f8;
+    height: 100vh;
+    margin: 70px 0 0 ; 
+    padding: 10px 50px;
+}
+.page5 .text{
+    display: inline-block;
+    width: 50%;
+}
+.page5 .images{
+    width: 40%;
+    display: inline-block;
+    margin: 300px 20px;
+}
+.page5 .images img{
+   max-width: 100%;
+  width: 350px;
+  display: inline-block;
+}
+.page5 .pic .line h5{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+.page5 .pic .line img{
+    margin-bottom: -13px;
+    background-color: #8E7754;
+}
+/* End page 5*/
+/* start page 6*/
+.page6{
+   margin: 70px 0 0; 
+   padding: 100px 50px 60px;
+   background-color: #403D38;
+   
+}
+.page6 .card{
+   display: inline-block;
+   width: 24%;
+}
+.page6 .card .kean{
+  display: flow-root;
+  margin:-23px 0 0 20px;
+}
+.page6 h3{
+   color: white;
+}
+.page6 p{
+   color: #686868;
+}
+
+.page6 .card .kean img{
+   float: left;
+   max-width: 100%;
+   width: 40px;
+   margin-top: 8px;
+}
+.page6 .card .kean p{
+  margin-top: 20px;
+}
+
+/* End page 6*/
+/* start footer */
+.footer{
+   text-align: center;
+   background-color: #303030;
+   padding: 0 0 40px;
+}
+.footer h5{
+   color: #686868;
+   padding: 30px 0;
+}
+.footer img{
+   width: 400px;
+}
+.footer .foot img{
+   max-width: 100%;
+   width: 50px;
+   background-color: #686868;
+   border: 1px solid #686868;
+   border-radius: 50%;
+}
+/* End footer */
+
+ 
+
+ 
+
